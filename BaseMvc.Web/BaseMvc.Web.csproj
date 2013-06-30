@@ -281,6 +281,10 @@
       <Project>{42FAD455-4B60-47CF-83CC-DF4657E36BBB}</Project>
       <Name>BaseMvc.Data.Bootstrap</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BaseMvc.Data.Contract\BaseMvc.Data.Contract.csproj">
+      <Project>{6472675B-6782-40A3-BB62-5AC79662BDAE}</Project>
+      <Name>BaseMvc.Data.Contract</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BaseMvc.Web.Bootstrap\BaseMvc.Web.Bootstrap.csproj">
       <Project>{29930962-064D-4876-B2A3-CEC9AE2FF492}</Project>
       <Name>BaseMvc.Web.Bootstrap</Name>

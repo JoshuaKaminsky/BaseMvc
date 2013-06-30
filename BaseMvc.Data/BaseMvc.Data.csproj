@@ -49,8 +49,8 @@
     <Compile Include="Bolts\BaseUnitOfWork.cs" />
     <Compile Include="Bolts\EFRepository.cs" />
     <Compile Include="Bolts\RepositoryProvider.cs" />
-    <Compile Include="Bolts\Service\Class1.cs" />
-    <Compile Include="Bolts\Service\Class2.cs" />
+    <Compile Include="Bolts\Service\UserService.cs" />
+    <Compile Include="Bolts\Service\SessionService.cs" />
     <Compile Include="Contract\IRepositoryProvider.cs" />
     <Compile Include="Contract\IUnitOfWork.cs" />
     <Compile Include="Contract\IRepository.cs" />

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 using System.Web.Security;
+using BaseMvc.Data.Contract;
 using BaseMvc.Web.Models.Account;
 
 namespace BaseMvc.Web.Controllers
@@ -9,6 +10,15 @@ namespace BaseMvc.Web.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+        private readonly ISessionService _sessionService;
+        private readonly IUserService _userService;
+
+        public AccountController(ISessionService sessionService, IUserService userService)
+        {
+            _sessionService = sessionService;
+            _userService = userService;
+        }
+
         //
         // GET: /Account/Index
 
